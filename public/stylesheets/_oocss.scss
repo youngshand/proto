@@ -1,0 +1,46 @@
+/**
+ * Margin and Padding generator. Returns values in increments of 5
+ */
+
+ @for $i from 1 through 100 {
+ @if $i % 5 == 0 {
+   // Padding loop
+   .ptb-#{$i} {
+     padding-top: #{$i}px;
+     padding-bottom: #{$i}px;
+   }
+   .pt-#{$i} {
+       padding-top: #{$i}px;
+   }
+   .pb-#{$i} {
+     padding-bottom: #{$i}px;
+   }
+
+   // Margin loop
+   .mtb-#{$i} {
+     margin-top: #{$i}px;
+     margin-bottom: #{$i}px;
+   }
+   .mt-#{$i} {
+     margin-top: #{$i}px;
+   }
+   .mb-#{$i} {
+     margin-bottom: #{$i}px;
+   }
+ }
+}
+
+/**
+ * Full height container
+ */
+
+.full-height{
+  height: 100vh;
+  border-bottom: 1px solid grey;
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 

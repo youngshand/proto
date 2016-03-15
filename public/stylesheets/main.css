@@ -1,0 +1,536 @@
+/**
+ * VARIABLES
+ */
+/**
+ * Margin and Padding generator. Returns values in increments of 5
+ */
+.ptb-5 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.pt-5 {
+  padding-top: 5px; }
+
+.pb-5 {
+  padding-bottom: 5px; }
+
+.mtb-5 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.mt-5 {
+  margin-top: 5px; }
+
+.mb-5 {
+  margin-bottom: 5px; }
+
+.ptb-10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.pt-10 {
+  padding-top: 10px; }
+
+.pb-10 {
+  padding-bottom: 10px; }
+
+.mtb-10 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.mt-10 {
+  margin-top: 10px; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.ptb-15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.pt-15 {
+  padding-top: 15px; }
+
+.pb-15 {
+  padding-bottom: 15px; }
+
+.mtb-15 {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.mt-15 {
+  margin-top: 15px; }
+
+.mb-15 {
+  margin-bottom: 15px; }
+
+.ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.pt-20 {
+  padding-top: 20px; }
+
+.pb-20 {
+  padding-bottom: 20px; }
+
+.mtb-20 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.mt-20 {
+  margin-top: 20px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.ptb-25 {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.pt-25 {
+  padding-top: 25px; }
+
+.pb-25 {
+  padding-bottom: 25px; }
+
+.mtb-25 {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+.mt-25 {
+  margin-top: 25px; }
+
+.mb-25 {
+  margin-bottom: 25px; }
+
+.ptb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.pt-30 {
+  padding-top: 30px; }
+
+.pb-30 {
+  padding-bottom: 30px; }
+
+.mtb-30 {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.mt-30 {
+  margin-top: 30px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.ptb-35 {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+.pt-35 {
+  padding-top: 35px; }
+
+.pb-35 {
+  padding-bottom: 35px; }
+
+.mtb-35 {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.mt-35 {
+  margin-top: 35px; }
+
+.mb-35 {
+  margin-bottom: 35px; }
+
+.ptb-40 {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.pt-40 {
+  padding-top: 40px; }
+
+.pb-40 {
+  padding-bottom: 40px; }
+
+.mtb-40 {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.mt-40 {
+  margin-top: 40px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.ptb-45 {
+  padding-top: 45px;
+  padding-bottom: 45px; }
+
+.pt-45 {
+  padding-top: 45px; }
+
+.pb-45 {
+  padding-bottom: 45px; }
+
+.mtb-45 {
+  margin-top: 45px;
+  margin-bottom: 45px; }
+
+.mt-45 {
+  margin-top: 45px; }
+
+.mb-45 {
+  margin-bottom: 45px; }
+
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.pt-50 {
+  padding-top: 50px; }
+
+.pb-50 {
+  padding-bottom: 50px; }
+
+.mtb-50 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.mt-50 {
+  margin-top: 50px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
+
+.ptb-55 {
+  padding-top: 55px;
+  padding-bottom: 55px; }
+
+.pt-55 {
+  padding-top: 55px; }
+
+.pb-55 {
+  padding-bottom: 55px; }
+
+.mtb-55 {
+  margin-top: 55px;
+  margin-bottom: 55px; }
+
+.mt-55 {
+  margin-top: 55px; }
+
+.mb-55 {
+  margin-bottom: 55px; }
+
+.ptb-60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.pt-60 {
+  padding-top: 60px; }
+
+.pb-60 {
+  padding-bottom: 60px; }
+
+.mtb-60 {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.mt-60 {
+  margin-top: 60px; }
+
+.mb-60 {
+  margin-bottom: 60px; }
+
+.ptb-65 {
+  padding-top: 65px;
+  padding-bottom: 65px; }
+
+.pt-65 {
+  padding-top: 65px; }
+
+.pb-65 {
+  padding-bottom: 65px; }
+
+.mtb-65 {
+  margin-top: 65px;
+  margin-bottom: 65px; }
+
+.mt-65 {
+  margin-top: 65px; }
+
+.mb-65 {
+  margin-bottom: 65px; }
+
+.ptb-70 {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.pt-70 {
+  padding-top: 70px; }
+
+.pb-70 {
+  padding-bottom: 70px; }
+
+.mtb-70 {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.mt-70 {
+  margin-top: 70px; }
+
+.mb-70 {
+  margin-bottom: 70px; }
+
+.ptb-75 {
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+.pt-75 {
+  padding-top: 75px; }
+
+.pb-75 {
+  padding-bottom: 75px; }
+
+.mtb-75 {
+  margin-top: 75px;
+  margin-bottom: 75px; }
+
+.mt-75 {
+  margin-top: 75px; }
+
+.mb-75 {
+  margin-bottom: 75px; }
+
+.ptb-80 {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.pt-80 {
+  padding-top: 80px; }
+
+.pb-80 {
+  padding-bottom: 80px; }
+
+.mtb-80 {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.mt-80 {
+  margin-top: 80px; }
+
+.mb-80 {
+  margin-bottom: 80px; }
+
+.ptb-85 {
+  padding-top: 85px;
+  padding-bottom: 85px; }
+
+.pt-85 {
+  padding-top: 85px; }
+
+.pb-85 {
+  padding-bottom: 85px; }
+
+.mtb-85 {
+  margin-top: 85px;
+  margin-bottom: 85px; }
+
+.mt-85 {
+  margin-top: 85px; }
+
+.mb-85 {
+  margin-bottom: 85px; }
+
+.ptb-90 {
+  padding-top: 90px;
+  padding-bottom: 90px; }
+
+.pt-90 {
+  padding-top: 90px; }
+
+.pb-90 {
+  padding-bottom: 90px; }
+
+.mtb-90 {
+  margin-top: 90px;
+  margin-bottom: 90px; }
+
+.mt-90 {
+  margin-top: 90px; }
+
+.mb-90 {
+  margin-bottom: 90px; }
+
+.ptb-95 {
+  padding-top: 95px;
+  padding-bottom: 95px; }
+
+.pt-95 {
+  padding-top: 95px; }
+
+.pb-95 {
+  padding-bottom: 95px; }
+
+.mtb-95 {
+  margin-top: 95px;
+  margin-bottom: 95px; }
+
+.mt-95 {
+  margin-top: 95px; }
+
+.mb-95 {
+  margin-bottom: 95px; }
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.pt-100 {
+  padding-top: 100px; }
+
+.pb-100 {
+  padding-bottom: 100px; }
+
+.mtb-100 {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.mt-100 {
+  margin-top: 100px; }
+
+.mb-100 {
+  margin-bottom: 100px; }
+
+/**
+ * Full height container
+ */
+.full-height {
+  height: 100vh;
+  border-bottom: 1px solid grey; }
+  .full-height .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+/**
+ * Typography
+ */
+h1 {
+  font-size: 20px; }
+  @media only screen and (min-width: 550px) {
+    h1 {
+      font-size: 40px; } }
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 60px; } }
+  @media only screen and (min-width: 990px) {
+    h1 {
+      font-size: 80px; } }
+  @media only screen and (min-width: 1200px) {
+    h1 {
+      font-size: 100px; } }
+
+h2 {
+  font-size: 20px; }
+  @media only screen and (min-width: 550px) {
+    h2 {
+      font-size: 30px; } }
+  @media only screen and (min-width: 768px) {
+    h2 {
+      font-size: 40px; } }
+  @media only screen and (min-width: 990px) {
+    h2 {
+      font-size: 50px; } }
+  @media only screen and (min-width: 1200px) {
+    h2 {
+      font-size: 60px; } }
+
+h3 {
+  font-size: 18px; }
+  @media only screen and (min-width: 550px) {
+    h3 {
+      font-size: 26px; } }
+  @media only screen and (min-width: 768px) {
+    h3 {
+      font-size: 32px; } }
+  @media only screen and (min-width: 990px) {
+    h3 {
+      font-size: 40px; } }
+  @media only screen and (min-width: 1200px) {
+    h3 {
+      font-size: 50px; } }
+
+h4 {
+  font-size: 12px; }
+  @media only screen and (min-width: 550px) {
+    h4 {
+      font-size: 16px; } }
+  @media only screen and (min-width: 768px) {
+    h4 {
+      font-size: 18px; } }
+  @media only screen and (min-width: 990px) {
+    h4 {
+      font-size: 22px; } }
+  @media only screen and (min-width: 1200px) {
+    h4 {
+      font-size: 26px; } }
+
+h5 {
+  font-size: 10px; }
+  @media only screen and (min-width: 550px) {
+    h5 {
+      font-size: 12px; } }
+  @media only screen and (min-width: 768px) {
+    h5 {
+      font-size: 14px; } }
+  @media only screen and (min-width: 990px) {
+    h5 {
+      font-size: 16px; } }
+  @media only screen and (min-width: 1200px) {
+    h5 {
+      font-size: 18px; } }
+
+/**
+ * HEADER
+ */
+header.main-header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 60px;
+  background: #fafafa;
+  z-index: 9999; }
+  header.main-header a.navigation {
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block; }
+    header.main-header a.navigation span {
+      width: 100%;
+      margin-bottom: 8px;
+      height: 4px;
+      background: black;
+      display: block; }
+      header.main-header a.navigation span:last-child {
+        margin-bottom: 0; }
+
+/**
+ * Footer
+ */
+footer.main-footer {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 60px;
+  background: #fafafa;
+  z-index: 9999; }
+
+/**
+ * MAIN STYLE SHEET - Put all of your custom declarations in here
+ */
