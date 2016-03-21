@@ -34,10 +34,20 @@ server.on('listening', onListening);
  * Enable browser sync on start
  */
 
+browserSync.use({
+    plugin: function () { /* noop */},
+    hooks: {
+        'client:js': require("fs").readFileSync("./bin/reloader.js", "utf-8") 
+    }
+});
+
 function listening () {
   browserSync({
     proxy: 'localhost:' + port,
-    files: ['public/**/*.{js,css}']
+    files: {
+      match: ['public/**/*.{js,css}'],
+    },
+    open: false
   });
 }
 

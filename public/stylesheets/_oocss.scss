@@ -31,12 +31,13 @@
 }
 
 /**
- * Full height container
+ * n height containers
  */
 
-.full-height{
+.full-screen-height{
   height: 100vh;
   border-bottom: 1px solid grey;
+  position: relative;
   .container{
     position: absolute;
     top: 50%;
@@ -44,3 +45,60 @@
     transform: translate(-50%, -50%);
   }
 } 
+
+.two-third-screen-height{
+  height: 66vh;
+  border-bottom: 1px solid grey;
+  position: relative;
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 
+
+.half-screen-height{
+  height: 50vh;
+  border-bottom: 1px solid grey;
+  position: relative;
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 
+
+.third-screen-height{
+  height: 33vh;
+  border-bottom: 1px solid grey;
+  position: relative;
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 
+
+.quarter-screen-height{
+  height: 33vh;
+  border-bottom: 1px solid grey;
+  position: relative;
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} 
+
+
+.full-height{
+  height: 100%;
+}
+
+.half-height{
+  height: 50%;
+}
