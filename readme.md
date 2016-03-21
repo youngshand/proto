@@ -19,3 +19,4 @@ This template comes with some Bootstrap. It is an internal requirement to use Bo
 It also contains a number of Object Oriented CSS (OOCSS) declarations, called inside the file _oocss.scss, please also try and make the most of these where possible. 
 
 ## Any additions or updates, please create a pull request.
+## Enjoy!
